@@ -19,15 +19,9 @@ My current goal is not to standstill. Every day I educate myself to gain the nec
 
 ## Code examples
 ```
-let allCards = document.querySelectorAll('[data-group]');
-let blockAllCards = document.getElementById('all-cards');
-let lecturesSum = document.getElementById('lectures-sum');
-
-allCards.forEach(card => {
-    blockAllCards.innerHTML += card.outerHTML;
-});
-
-lecturesSum.innerHTML = allCards.length + ' lectures';
+function makeNegative(num) {
+  return num > 0 ? -num : num
+}
 ```
 ## Experience
 * pet-project in group: Detection of medical masks in the image (CSS, HTML, Django)
