@@ -6,7 +6,7 @@
 * GitHub: [4k1r1n](https://github.com/4k1r1n)
 * Telegram: [Arina Kireeva](https://t.me/akira657)
 
-## Summery
+## Summary
 My current goal is not to standstill. Every day I educate myself to gain the necessary skills and knowledge to get a job as a junior front-end developer. I hope everything will work out!
 
 ## Skills
