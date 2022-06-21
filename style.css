@@ -34,7 +34,8 @@ body {
     color: #475569;
 }
 
-.header {
+.header,
+.footer {
     background-color: #F3F7FA;
 }
 
@@ -119,4 +120,20 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #2F3D55;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
 }
