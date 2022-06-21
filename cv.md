@@ -7,7 +7,7 @@
 * Telegram: [Arina Kireeva](https://t.me/frbhby)
 
 ## Summary
-My current goal is not to standstill. Every day I educate myself to gain the necessary skills and knowledge to get a job as a junior front-end developer. I hope everything will work out!
+My current goal is not to standstill. Every day I educate myself to gain the necessary skills and knowledge to get a job as a junior front-end developer. 
 
 ## Skills
 * HTML
