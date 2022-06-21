@@ -46,7 +46,8 @@ body {
 
 .header .container {
     position: relative;
-    padding: 50px 0 20px 0;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .title {
@@ -65,7 +66,7 @@ body {
 
 .avatar {
     position: absolute;
-    top: 13%;
+    bottom: 20%;
     border: 3px solid #fff;
     max-width: 130px;
     border-radius: 50%;
