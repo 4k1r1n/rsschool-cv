@@ -28,7 +28,7 @@ function makeNegative(num) {
 ## Education
 * __Saint Petersburg State Marine Technical University, 2017 - 2021__  
 Bachelor in Cyber and Information Security
-* __Saint Petersburg Electrotechnical University 'LETI',2021 - present__
+* __Saint Petersburg Electrotechnical University 'LETI',2021 - present__  
 Master of Science in Computer Information Systems
 
 * __Courses__:
