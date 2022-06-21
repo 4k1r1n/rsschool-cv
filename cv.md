@@ -39,4 +39,4 @@ Master of Science in Computer Information Systems
 
 ## Languages
 * __Russian__ - native
-* __English__ - B1
+* __English__ - intermediate
