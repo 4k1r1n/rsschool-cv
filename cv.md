@@ -39,18 +39,18 @@ function bingo(ticket, win) {
 * [Eldritch Horror Helper](#)
 
 ## Education
-* 2021 - present
-__Software of Information and Computing Systems__
-Saint Petersburg Electrotechnical University 'LETI' 
-Master's degree 
-* 2017 - 2021 
-__Information Security__ 
-Saint Petersburg State Marine Technical University 
-Bachelor's degree
+* 2021 - present  
+__Software of Information and Computing Systems__  
+Saint Petersburg Electrotechnical University 'LETI'  
+Master's degree
+* 2017 - 2021  
+__Information Security__  
+Saint Petersburg State Marine Technical University  
+Bachelor's degree  
 
 __Courses__:     
-     + [RS School «JavaScript/Front-end. Stage 0»](https://rs.school/js/)
-     + [beeinterns](https://beeline-interns.ru/) \(HTML/CSS, JS, React)
+* [RS School «JavaScript/Front-end. Stage 0»](https://rs.school/js/)
+* [beeinterns](https://beeline-interns.ru/) \(HTML/CSS, JS, React)
 
 ## Languages
 * __Russian__ - native
