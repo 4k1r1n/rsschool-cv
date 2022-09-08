@@ -1,4 +1,3 @@
-
 # Arina Kireeva
 
 ## Contacts
@@ -8,35 +7,50 @@
 * Discord: [4k1r1n#5183](https://discord.com/users/716604039449542666)
 
 ## Summary
-My current goal is not to standstill. Every day I educate myself to gain the necessary skills and knowledge to get a job as a junior front-end developer. 
+I like to learn something new every day, so I hope my ability to learn will help me walk the difficult path and become a great front-end developer.
 
 ## Skills
 * HTML
 * CSS
+* JS
 * Git
 * Figma
-* JS
 
 ## Code
 ```
-function makeNegative(num) {
-  return num > 0 ? -num : num
+function bingo(ticket, win) {
+    let count = 0;
+                            
+    ticket.forEach(el => {
+        if (el[0].includes(String.fromCharCode(el[1]))) {
+            count++;
+        }
+    })
+                            
+    if (count >= win) {
+        return 'Winner!';
+    } else {
+    return 'Loser!';
+    }
 }
 ```
 ## Projects
-* In team: Mask Detection (CSS, HTML, Django) 
+* [Momentum](#)
+* [Eldritch Horror Helper](#)
 
 ## Education
-* __Saint Petersburg State Marine Technical University, 2017 - 2021__  
-Bachelor in Cyber and Information Security
-* __Saint Petersburg Electrotechnical University 'LETI',2021 - present__  
-Master of Science in Computer Information Systems
+* 2021 - present
+__Software of Information and Computing Systems__
+Saint Petersburg Electrotechnical University 'LETI' 
+Master's degree 
+* 2017 - 2021 
+__Information Security__ 
+Saint Petersburg State Marine Technical University 
+Bachelor's degree
 
-* __Courses__:
-     + [W3Schools](https://www.w3schools.com/): HTML and CSS Tutorials (in progess)
-     + [Learn JavaScript](https://learn.javascript.ru/) (in progress)
-     + [RS School «JavaScript/Front-end. Stage 0»](https://rs.school/js/) (in progress)
-     + [beeinterns](https://beeline-interns.ru/) \(HTML/CSS, JS, React) (in progress)
+__Courses__:     
+     + [RS School «JavaScript/Front-end. Stage 0»](https://rs.school/js/)
+     + [beeinterns](https://beeline-interns.ru/) \(HTML/CSS, JS, React)
 
 ## Languages
 * __Russian__ - native
