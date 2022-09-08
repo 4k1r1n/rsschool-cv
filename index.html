@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/609446b71e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="list">
+                    <li class="nav-item">
+                        <a class="link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section profile" id="profile">
+                <img class="avatar" src="./assets/img/avatar.jpg" alt="avatar">
+
+                <div class="info">
+                    <div class="profile-title">
+                        <h1 class="main-title">Arina Kireeva</h1>
+                        <p class="subtitle">Junior Front-end developer</p>
+                    </div>
+                    <div class="contact">
+                        <div class="contacts">
+                            <a class="link" href="mailto:arinakire@gmail.com">arinakire@gmail.com</a>
+                            <ul class="list socials-list">
+                                <li class="list-item">
+                                    <a class="link" href="https://github.com/4k1r1n" target="_blank"><i
+                                            class="fa-brands fa-github fa-xl"></i></a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link" href="https://t.me/frbhby" target="_blank"><i
+                                            class="fa-brands fa-telegram fa-xl"></i></a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link" href="https://discord.com/users/716604039449542666"
+                                        target="_blank"><i class="fa-brands fa-discord fa-xl"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="summary">
+                <p>I like to learn something new every day, so I hope my ability to learn will help me walk
+                    the difficult path and become a great front-end developer.</p>
+            </div>
+
+            <div class="layout-2-column">
+                <section class="section education" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="list education-list">
+                        <li class="list-item">
+                            <p class="date">2021 - present</p>
+                            <p class="speciality">Software of Information and Computing Systems</p>
+                            <p>Saint Petersburg Electrotechnical University 'LETI'</p>
+                            <p>Master's degree</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="date">2017 - 2021</p>
+                            <p class="speciality">Information Security</p>
+                            <p>Saint Petersburg State Marine Technical University</p>
+                            <p>Bachelor's degree</p>
+                        </li>
+                    </ul>
+
+                    <h3 class="title">Courses</h3>
+                    <ul class="list courses-list">
+                        <li class="list-item">RS School «JavaScript/Front-end. Stage 0»
+                        </li>
+                        <li class="list-item">
+                            beeinterns (HTML/CSS, JS, React)
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section projects" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a class="link" href="#">Momentum</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="link" href="#">Eldritch Horror Helper</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre class="snippet"><code >function bingo(ticket, win) {
+    let count = 0;
+                            
+    ticket.forEach(el => {
+        if (el[0].includes(String.fromCharCode(el[1]))) {
+            count++;
+        }
+    })
+                            
+    if (count >= win) {
+        return 'Winner!';
+    } else {
+    return 'Loser!';
+    }
+}
+    </code></pre>
+                </section>
+            </div>
+
+            <section class="section skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list skills-list">
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">CSS</li>
+                    <li class="list-item">JavaScript</li>
+                    <li class="list-item">Git</li>
+                    <li class="list-item">Figma</li>
+                </ul>
+
+                <h3 class="title">Languages</h3>
+                <ul class="list languages-list">
+                    <li class="list-item">Russian (native)</li>
+                    <li class="list-item">English (intermediate)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p class="text">&copy;2022</p>
+                <a href="https://github.com/4k1r1n" class="link">4k1r1n</a>
+            </div>
+            <a href="https://rs.school/js/" class="link rs-school"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
